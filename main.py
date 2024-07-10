@@ -166,8 +166,8 @@ def run():
     # 按F进入时序之寰
     pyautogui.press('f')
     # 选择推荐等级50 点击单人挑战 点击开启挑战
-    pyautogui.moveTo(x=423, y=357)
-    pyautogui.click(x=423, y=357, button='left', interval=0.5, clicks=3)
+    pyautogui.moveTo(x=423, y=475)
+    pyautogui.click(x=423, y=475, button='left', interval=0.5, clicks=3)
     pyautogui.click(x=2077, y=1296, button='left', interval=0.5, clicks=2)
     pyautogui.click(x=2077, y=1296, button='left', interval=0.5, clicks=2)
     # 检测是否成功载入游戏
